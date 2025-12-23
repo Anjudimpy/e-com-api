@@ -1,0 +1,43 @@
+export class UserModel{
+    constructor(name, email, password, type){
+        this.id = Math.floor(Math.random() * 1000000);
+        this.name= name;
+        this.email = email;
+        this.password = password;
+        this.type = type;
+        
+    }
+static signUp(name, email, password, type){
+    const newUser = new UserModel(name,email, password, type);
+    newUser.id = users.length+1;
+    users.push(newUser);
+    return newUser;
+}
+
+static signIn(email, password){
+    const user = users.find((u) => u.email == email && u.password == password);
+    return user;
+}
+
+static getAll(){
+    return users;
+}
+
+}
+
+var users= [
+    {
+        id:1,
+        name:'Seller User',
+        email:'seller@gmail.com',
+        password:'Password1',
+        type:'seller',
+    },
+     {
+        id:2,
+        name:'Customer User',
+        email:'customer@gmail.com',
+        password:'Password1',
+        type:'customer',
+    }
+]
