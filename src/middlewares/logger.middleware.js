@@ -23,18 +23,13 @@ const logger = winston.createLogger({
     ]
 });
 
-
-
-
 const loggerMiddleware = async (req, res, next) => {
     //1. Log request body.
     if(!req.url.includes('signin')){
      const logData = `${req.url} - ${JSON.stringify(req.body)}`;
     //  await log(logData);
 //3. by winston lib
-logger.info(logData);
-
-    }
+logger.info(logData); }
    next();
 }
 

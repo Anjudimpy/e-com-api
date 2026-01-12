@@ -1,5 +1,5 @@
 import express from "express";
-import swagger, { serve } from "swagger-ui-express";
+import swagger from "swagger-ui-express";
 import productRouter from "./src/features/product/product.routes.js";
 import bodyParser from "body-parser";
 import userRouter from "./src/features/user/user.routes.js";
@@ -8,6 +8,8 @@ import cartRouter from "./src/features/cartitems/cartitems.routes.js";
 import apiDocs from './swagger.json' assert {type:'json'};
 import cors from "cors";
 import loggerMiddleware from "./src/middlewares/logger.middleware.js";
+import { ApplicationError } from "./src/error-handler/applicationError.js";
+import {connectToMongoDB} from "./src/config/mongodb.js";
 
 //create Server
 const app = express();
@@ -44,11 +46,23 @@ app.use('/api/cartitems',loggerMiddleware, jwtAuth, cartRouter);
 app.get('/', (req, res) => {
    res.send("Welocm to E-com API");
 })
+//Error handler middleware
+app.use((err, req, res, next) =>{
+   console.log(err);
+   if(err instanceof ApplicationError){
+      res.status(err.code).send(err.message);
+   }
+   //server errors
+   res.status(500).send("Somthing went wrong, please try later")
+})
+
+// Middleware to handle 404 requests.
 app.use((req, res)=>{
    res.status(404).send("API not found. Please check our documantions for more information at localhost:3200/api-docs")
 })
 
 app.listen(3200, () => {
    console.log("Server is running on port 3200");
+   connectToMongoDB();
 });
 
