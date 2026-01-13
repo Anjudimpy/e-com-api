@@ -1,4 +1,5 @@
 import express from "express";
+import './env.js';
 import swagger from "swagger-ui-express";
 import productRouter from "./src/features/product/product.routes.js";
 import bodyParser from "body-parser";
@@ -13,6 +14,8 @@ import {connectToMongoDB} from "./src/config/mongodb.js";
 
 //create Server
 const app = express();
+//load all the enviroment variable in application
+
 app.use(bodyParser.json());
 
 //CROS policy configuration

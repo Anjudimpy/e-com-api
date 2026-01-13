@@ -18,10 +18,38 @@ try{
 }
 }
 
-// signIn(email, password){
-//     const user = users.find((u) => u.email == email && u.password == password);
-//     return user;
-// }
+async signIn(email, password){
+try{
+    //1. Get the database
+    const db = getDB();
+
+    //2. Get the collection
+    const collection = db.collection("users");
+ 
+    //3.Find the document.
+    return await collection.findOne({email, password});
+
+}catch(err){
+    throw new ApplicationError("Something went wrong", 503);
+}
+}
+
+async findByEmail(email){
+try{
+    //1. Get the database
+    const db = getDB();
+
+    //2. Get the collection
+    const collection = db.collection("users");
+ 
+    //3.Find the document.
+    return await collection.findOne({email});
+
+}catch(err){
+    throw new ApplicationError("Something went wrong", 503);
+}
+}
+
 }
 
 export default UserRepository
