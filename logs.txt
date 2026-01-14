@@ -3,3 +3,32 @@
 {"level":"info","message":"/api/users/signup - {\"email\":\"seller2@gmail.com\",\"password\":\"Password1\",\"name\":\"Seller2 User\",\"type\":\"seller\"}","service":"request-logging"}
 {"level":"info","message":"/api/users/signup - {\"email\":\"seller4@gmail.com\",\"password\":\"Password\",\"name\":\"Seller User 4\",\"type\":\"seller\"}","service":"request-logging"}
 {"level":"info","message":"/api/users/signup - {\"email\":\"seller5@gmail.com\",\"password\":\"Password\",\"name\":\"Seller User 5\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"email\":\"seller5@gmail.com\",\"password\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"'Product 1'\",\"desc\":\"Description for Product 1\",\"price\":19.99,\"imageUrl\":\"https://m.media-amazon.com/images/I/51-nXsSRfZL._SX328_BO1,204,203,200_.jpg\",\"category\":\"Cateogory1\"}","service":"request-logging"}
+{"level":"info","message":"/api/products - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"Nike Air Max\",\"desc\":\"Comfortable running shoes with premium cushioning\",\"price\":2999,\"imageUrl\":\"https://example.com/images/nike-air-max.jpg\",\"category\":\"Shoes\",\"sizes\":[\"6\",\"7\",\"8\",\"9\",\"10\"]}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"email\":\"seller5@gmail.com\",\"password\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"_id\":\"1\",\"name\":\"Nike Air Max\",\"desc\":\"Comfortable running shoes with premium cushioning\",\"price\":2999,\"imageUrl\":\"https://example.com/images/nike-air-max.jpg\",\"category\":\"Shoes\",\"sizes\":[\"6\",\"7\",\"8\",\"9\",\"10\"]}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"Nike Air Max\",\"desc\":\"Comfortable running shoes with premium cushioning\",\"price\":2999,\"imageUrl\":\"https://example.com/images/nike-air-max.jpg\",\"category\":\"Shoes\",\"sizes\":[\"6\",\"7\",\"8\",\"9\",\"10\"]}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"Nike Air Max\",\"desc\":\"Comfortable running shoes with premium cushioning\",\"price\":2999,\"imageUrl\":\"https://example.com/images/nike-air-max.jpg\",\"category\":\"Shoes\",\"sizes\":[\"6\",\"7\",\"8\",\"9\",\"10\"]}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"Nike Air Max\",\"desc\":\"Comfortable running shoes with premium cushioning\",\"price\":2999,\"imageUrl\":\"https://example.com/images/nike-air-max.jpg\",\"category\":\"Shoes\",\"sizes\":[\"6\",\"7\",\"8\",\"9\",\"10\"]}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"Nike Air Max\",\"desc\":\"Comfortable running shoes with premium cushioning\",\"price\":2999,\"imageUrl\":\"https://example.com/images/nike-air-max.jpg\",\"category\":\"Shoes\",\"sizes\":[\"6\",\"7\",\"8\",\"9\",\"10\"]}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"Nike Air Max\",\"desc\":\"Comfortable running shoes with premium cushioning\",\"price\":2999,\"imageUrl\":\"https://example.com/images/nike-air-max.jpg\",\"category\":\"Shoes\",\"sizes\":[\"6\",\"7\",\"8\",\"9\",\"10\"]}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"Nike Air Max\",\"desc\":\"Comfortable running shoes with premium cushioning\",\"price\":2999,\"imageUrl\":\"https://example.com/images/nike-air-max.jpg\",\"category\":\"Shoes\",\"sizes\":[\"6\",\"7\",\"8\",\"9\",\"10\"]}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"Nike Air Max\",\"desc\":\"Comfortable running shoes with premium cushioning\",\"price\":2999,\"imageUrl\":\"https://example.com/images/nike-air-max.jpg\",\"category\":\"Shoes\",\"sizes\":[]}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"Nike Air Max\",\"desc\":\"Comfortable running shoes with premium cushioning\",\"price\":2999,\"imageUrl\":\"https://example.com/images/nike-air-max.jpg\",\"category\":\"Shoes\",\"sizes\":[\"6\",\"7\",\"8\",\"9\",\"10\"]}","service":"request-logging"}
+{"level":"info","message":"/api/products - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"Nike Air Max\",\"desc\":\"Comfortable running shoes with premium cushioning\",\"price\":2999,\"imageUrl\":\"https://example.com/images/nike-air-max.jpg\",\"category\":\"Shoes\",\"sizes\":[\"6\",\"7\",\"8\",\"9\",\"10\"]}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"Nike Air Max\",\"desc\":\"Comfortable running shoes with premium cushioning\",\"price\":2999,\"imageUrl\":\"https://example.com/images/nike-air-max.jpg\",\"category\":\"Shoes\",\"sizes\":[\"6\",\"7\",\"8\",\"9\",\"10\"]}","service":"request-logging"}
+{"level":"info","message":"/api/products/ - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products/ - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products/ - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products/ - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products/ - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products/ - {\"name\":\"T-shirt\",\"price\":999,\"sizes\":[\"S\",\"M\",\"L\"]}","service":"request-logging"}
+{"level":"info","message":"/api/products/ - {\"name\":\"T-shirt\",\"price\":999,\"sizes\":[\"S\",\"M\",\"L\"]}","service":"request-logging"}
+{"level":"info","message":"/api/products/ - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products/ - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products/ - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products/ - undefined","service":"request-logging"}
