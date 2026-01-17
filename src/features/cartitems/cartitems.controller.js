@@ -1,10 +1,14 @@
 import CartItemModel from "./cartitems.model.js";
+import CartitemsRepository from "./cartitems.repository.js";
 
 export class CartItemsController{
-    add(req,res){
-        const{productID, quantity} = req.query;
+    constructor(){
+        this.cartitemRepository = new CartitemsRepository();
+    }
+    async add(req,res){
+        const{productID, quantity} = req.body;
         const userID = req.userID;
-        CartItemModel.add(productID, userID, quantity);
+        await this.cartitemRepository.add(productID, userID, quantity);
         res.status(201).send('Cart is updated');
     }
 

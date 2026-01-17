@@ -12,32 +12,32 @@ export default class ProductController {
     res.status(200).send(products);
     } catch(err){
     console.log(err);
-    return res.status(200).send("Something went wrong");
+    return res.status(500).send("Something went wrong");
    }    
   }
 
   async addProduct(req, res) {
     try{
     const { name, price, sizes } = req.body;
+     const imageUrl = req.file ? req.file.filename : null;
     const newProduct = new ProductModel(name,null, parseFloat(price),
-    req.file ? req.file.filename : null, null, sizes.split(',')
+    imageUrl, null, sizes.split(',')
     );
 
     const createdProduct = await this.productRepository.add(newProduct);
     res.status(201).send(createdProduct);
   }catch(err){
     console.log(err);
-    return res.status(200).send("Something went wrong");
+    return res.status(500).send("Something went wrong");
   }
 }
 
-  rateProduct(req, res, next) {
-    console.log(req.query);
+  async rateProduct(req, res, next) {
     try{
-      const userID = req.query.userID;
-      const productID = req.query.productID;
-      const rating = req.querys.rating;
-      ProductModel.rateProduct(
+      const userID = req.userID;
+      const productID = req.body.productID;
+      const rating = req.body.rating;
+     await this.productRepository.rate(
         userID,
         productID, 
         rating
@@ -46,6 +46,7 @@ export default class ProductController {
           .status(200)
           .send('Rating has been added');
     } catch(err){
+      console.log(err);
       console.log("Passing error to middleware");
       next(err);
     }
@@ -63,19 +64,24 @@ export default class ProductController {
       }
     } catch(err){
     console.log(err);
-    return res.status(200).send("Something went wrong");
+    return res.status(500).send("Something went wrong");
   }
 }
 
-  filterProducts(req, res) {
+  async filterProducts(req, res) {
+    try{
     const minPrice = req.query.minPrice;
     const maxPrice = req.query.maxPrice;
     const category = req.query.category;
-    const result = ProductModel.filter(
+    const result = await this.productRepository.filter(
       minPrice,
       maxPrice,
       category
     );
     res.status(200).send(result);
+    }catch(err){
+      console.log(err);
+      return res.status(200).send("Something went wrong");
+    }
   }
 }
