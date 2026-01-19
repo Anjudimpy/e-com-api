@@ -12,6 +12,7 @@ export class CartItemsController{
         await this.cartitemRepository.add(productID, userID, quantity);
         res.status(201).send('Cart is updated');
         }catch(err){
+            console.log(err)
             return res.status(500).send("Something went wrong");
         }
         
