@@ -40,6 +40,9 @@ productRouter.post(
     productController.addProduct(req, res)
  }
 );
+productRouter.get('/averagePrice',(req,res,next)=>{
+  productController.averagePrice(req,res,next)
+});
 productRouter.get(
   '/:id',
   (req, res)=>{

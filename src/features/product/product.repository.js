@@ -57,9 +57,10 @@ class ProductRepository{
                 filterExpression.price = {...filterExpression.price, $lte: parseFloat(maxPrice)}
             }
             if(category){
-                filterExpression.category=category;
+                filterExpression ={$or:[{category:{$in:category}},filterExpression]}
+                // filterExpression.category=category;
             }
-            return await collection.find(filterExpression).toArray();
+            return await collection.find(filterExpression).project({name:1,price:1,_id:0, ratings:{$slice:-1}}).toArray();
             
         }catch(err){
             console.log(err);
@@ -84,6 +85,26 @@ class ProductRepository{
             },{
                 $push: {ratings: {userID:new ObjectId(userID), rating}}
             })
+
+        }catch(err){
+            console.log(err);
+            throw new ApplicationError("Something went wrong with database", 500);
+        }
+    }
+
+    async averageProductPricePerCategory(){
+        try{
+            const db = getDB();
+           return await db.collection(this.collection)
+            .aggregate([
+                {
+                    //Stage 1: Get Vaerge price per category
+                    $group:{
+                        _id:"$category",
+                        averagePrice:{$avg:"$price"}
+                    }
+                }
+            ]).toArray();
 
         }catch(err){
             console.log(err);

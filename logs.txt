@@ -279,3 +279,14 @@
 {"level":"info","message":"/ - {\"productID\":\"696bbc1deb8ff14efc0c59ae\",\"quantity\":3}","service":"request-logging"}
 {"level":"info","message":"/api/cartitems/ - {\"productID\":\"696bc3c05169952141fce051\",\"quantity\":2}","service":"request-logging"}
 {"level":"info","message":"/ - {\"productID\":\"696bc3c05169952141fce051\",\"quantity\":2}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"productID\":\"696bc3c05169952141fce051\",\"quantity\":2}","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?maxPrice=20000&minPrice=10000 - {\"productID\":\"696bc3c05169952141fce051\",\"quantity\":2}","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?maxPrice=20000&minPrice=1000 - {\"productID\":\"696bc3c05169952141fce051\",\"quantity\":2}","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?maxPrice=20000&minPrice=1000 - {\"productID\":\"696bc3c05169952141fce051\",\"quantity\":2}","service":"request-logging"}
+{"level":"info","message":"/api/products/ - {\"productID\":\"696bc3c05169952141fce051\",\"quantity\":2}","service":"request-logging"}
+{"level":"info","message":"/api/products/ - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products/ - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products/ - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products/averagePrice - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products/averagePrice - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products/averagePrice - undefined","service":"request-logging"}
