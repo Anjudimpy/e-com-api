@@ -11,6 +11,7 @@ import cors from "cors";
 import loggerMiddleware from "./src/middlewares/logger.middleware.js";
 import { ApplicationError } from "./src/error-handler/applicationError.js";
 import {connectToMongoDB} from "./src/config/mongodb.js";
+import orderRouter from "./src/features/order/order.routes.js";
 
 //create Server
 const app = express();
@@ -45,6 +46,7 @@ app.use(loggerMiddleware);
 app.use('/api/users', userRouter)
 app.use('/api/products', productRouter);
 app.use('/api/cartitems',loggerMiddleware, jwtAuth, cartRouter);
+app.use('/api/orders', jwtAuth, orderRouter)
 
 app.get('/', (req, res) => {
    res.send("Welocm to E-com API");
