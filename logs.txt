@@ -343,3 +343,97 @@
 {"level":"info","message":"/api/orders - {\"productID\":\"6971d55da96d6f66eae62147\",\"quantity\":3}","service":"request-logging"}
 {"level":"info","message":"/api/orders - {\"productID\":\"6971d55da96d6f66eae62147\",\"quantity\":3}","service":"request-logging"}
 {"level":"info","message":"/api/orders - {\"productID\":\"6971d55da96d6f66eae62147\",\"quantity\":3}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"Alex\",\"email\":\"alex@gmaile.com\",\"password\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetPassword - {\"resetPassword\":\"Password5\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetPassword - {\"resetPassword\":\"Password5\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetPassword - {\"newPassword\":\"Password5\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetPassword - {\"newPassword\":\"12345678\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetPassword - {\"newPassword\":\"12345678\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetpassword - {\"newPassword\":\"12345678\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetpassword - {\"newPassword\":\"12345678\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetpassword - {\"newPassword\":\"Password5\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetpassword - {\"newPassword\":\"Password5\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/reset-password - {\"newPassword\":\"Password5\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/reset-password - {\"newPassword\":\"Password6\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/reset-password - {\"newPassword\":\"Password67\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetpassword - {\"newPassword\":\"Password67\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetpassword - {\"newPassword\":\"Password67\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetpassword - {\"newPassword\":\"Password67\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetpassword - {\"email\":\"jhone@gmaile.com\",\"password\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetpassword - {\"newPassword\":\"12345678\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetpassword - {\"newPassword\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetpassword - {\"newPassword\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetpassword - {\"newPassword\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/resetpassword - {\"newPassword\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan\",\"email\":\"rihan@gmaile.com\",\"password\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan\",\"email\":\"rihangmaile.com\",\"password\":\"Password@12\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan\",\"email\":\"rihan@gmaile.com\",\"password\":\"Password@12\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan\",\"email\":\"rihan@gmaile.com\",\"password\":\"Password@1\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan\",\"email\":\"rihan@gmaile.com\",\"password\":\"Password@1\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan\",\"email\":\"rihan@gmaile.com\",\"password\":\"Anju@123\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan\",\"email\":\"rihan@gmaile.com\",\"password\":\"Anju@123\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan raj\",\"email\":\"rihraj@gmaile.com\",\"password\":\"Anju@123\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan raj\",\"email\":\"rihraj@gmaile.com\",\"password\":\"Anju@123\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan raj\",\"email\":\"rihraj@gmaile.com\",\"password\":\"Anju@123\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan raj\",\"email\":\"rihraj@gmaile.com\",\"password\":\"Anju@123\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan raj\",\"email\":\"rihraj@gmaile.com\",\"password\":\"Anju@123\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan raj\",\"email\":\"rihraj@gmaile.com\",\"password\":\"Anju@123\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan raj\",\"email\":\"rihraj@gmaile.com\",\"password\":\"Anju@123\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan raj\",\"email\":\"rihraj@gmaile.com\",\"password\":\"Anju@123\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan raj\",\"email\":\"rihraj@gmaile.com\",\"password\":\"Anju@123\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan raj\",\"email\":\"rihraj@gmaile.com\",\"password\":\"Anju@1253\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan raj\",\"email\":\"rihraj@gmaile.com\",\"password\":\"Anju@1253\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan wraj\",\"email\":\"rihrarj@gmaile.com\",\"password\":\"Anju@1253\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan wraj\",\"email\":\"rihrarj@gmaile.com\",\"password\":\"Anju@1253\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan wraj\",\"email\":\"rihrarj@gmaile.com\",\"password\":\"Anju@1253\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan wraj\",\"email\":\"rihrarj@gmaile.com\",\"password\":\"Anju@1253\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"rihan wraj\",\"email\":\"rihrarj@gmaile.com\",\"password\":\"Anju@1253\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"nayra\",\"email\":\"nayra@gmaile.com\",\"password\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/produts - {\"productID\":\"6971d55da96d6f66eae62147\",\"quantity\":3}","service":"request-logging"}
+{"level":"info","message":"/api/products/ - {\"productID\":\"6971d55da96d6f66eae62147\",\"quantity\":3}","service":"request-logging"}
+{"level":"info","message":"/api/users - {\"productID\":\"6971d55da96d6f66eae62147\",\"quantity\":3}","service":"request-logging"}
+{"level":"info","message":"/api/user - {\"productID\":\"6971d55da96d6f66eae62147\",\"quantity\":3}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"productID\":\"6971d55da96d6f66eae62147\",\"quantity\":3}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate - {\"productID\":\"6971d55da96d6f66eae62147\",\"review\":3}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate - {\"productID\":\"6971d55da96d6f66eae62147\",\"rating\":4}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate - {\"productID\":\"6971d55da96d6f66eae62147\",\"rating\":4}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"nayra\",\"email\":\"nayra@gmaile.com\",\"password\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"nayra\",\"email\":\"nayra@gmaile.com\",\"password\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"nayra@gmaile.com\",\"password\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"jhone@gmaile.com\",\"password\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"alex@gmaile.com\",\"password\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"email\":\"alex@gmaile.com\",\"password\":\"Password\"}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"Amazone\",\"price\":\"15000\",\"desc\":\"E-book\",\"categories\":\"6979fb6a67c69868bdd85e24, 6979fb6a67c69868bdd85e26\"}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"Amazone\",\"price\":\"15000\",\"desc\":\"E-book\",\"categories\":\"6979fb6a67c69868bdd85e24, 6979fb6a67c69868bdd85e26\"}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"Amazone\",\"price\":\"15000\",\"desc\":\"E-book\",\"categories\":\"6979fb6a67c69868bdd85e24, 6979fb6a67c69868bdd85e26\"}","service":"request-logging"}
+{"level":"info","message":"/api/products - {\"name\":\"Amazone\",\"price\":\"15000\",\"desc\":\"E-book\",\"categories\":\"6979fb6a67c69868bdd85e24, 6979fb6a67c69868bdd85e26\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a4\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a4\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"types\":\"Product\",\"id\":\"697b19908803e9cee1ac7a4\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a4\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"6971d55da96d6f66eae62147\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a4\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"types\":\"Product\",\"id\":\"6971d569a96d6f66eae62148\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"6971d569a96d6f66eae62148\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=6971d569a96d6f66eae62148&type=Product - {\"type\":\"Product\",\"id\":\"6971d569a96d6f66eae62148\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b576d6e9f2de68b1624b2&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b576d6e9f2de68b1624b2&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b576d6e9f2de68b1624b2&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b576d6e9f2de68b1624b2&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b576d6e9f2de68b1624b2&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b576d6e9f2de68b1624b2&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}

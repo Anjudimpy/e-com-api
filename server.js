@@ -12,6 +12,9 @@ import loggerMiddleware from "./src/middlewares/logger.middleware.js";
 import { ApplicationError } from "./src/error-handler/applicationError.js";
 import {connectToMongoDB} from "./src/config/mongodb.js";
 import orderRouter from "./src/features/order/order.routes.js";
+import { connectUsingMongoose } from "./src/config/mongooseConfig.js";
+import mongoose from "mongoose";
+import likeRouter from "./src/features/like/like.routes.js";
 
 //create Server
 const app = express();
@@ -46,7 +49,8 @@ app.use(loggerMiddleware);
 app.use('/api/users', userRouter)
 app.use('/api/products', productRouter);
 app.use('/api/cartitems',loggerMiddleware, jwtAuth, cartRouter);
-app.use('/api/orders', jwtAuth, orderRouter)
+app.use('/api/orders', jwtAuth, orderRouter);
+app.use('/api/likes', jwtAuth, likeRouter);
 
 app.get('/', (req, res) => {
    res.send("Welocm to E-com API");
@@ -54,6 +58,9 @@ app.get('/', (req, res) => {
 //Error handler middleware
 app.use((err, req, res, next) =>{
    console.log(err);
+   if(err instanceof mongoose.Error.ValidationError){
+      return res.status(400).send(err.message);
+   }
    if(err instanceof ApplicationError){
       res.status(err.code).send(err.message);
    }
@@ -68,6 +75,7 @@ app.use((req, res)=>{
 
 app.listen(3200, () => {
    console.log("Server is running on port 3200");
-   connectToMongoDB();
+   // connectToMongoDB();
+   connectUsingMongoose();
 });
 
