@@ -437,3 +437,17 @@
 {"level":"info","message":"/api/likes?id=697b576d6e9f2de68b1624b2&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
 {"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
 {"level":"info","message":"/api/likes?id=697b576d6e9f2de68b1624b2&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes?id=697b19908803e9cee1ac7a45&type=Product - {\"type\":\"Product\",\"id\":\"697b19908803e9cee1ac7a45\"}","service":"request-logging"}

@@ -20,7 +20,7 @@ export class LikeController{
         
         try{
            const {id, type} = req.body;
-           const userId= req.userId;
+           const userId= req.userID;
            if(type!='Product'&& type!='Category'){
              return res.status(400).send('Invalid Type')
            }
