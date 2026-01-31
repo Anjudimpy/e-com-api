@@ -15,13 +15,11 @@ export const likeSchema =  new mongoose.Schema({
     }
 }).pre('save',()=>{
     console.log('New like comming in');
-    // next();
 }).post('save',(doc)=>{
     console.log('like is saved');
     console.log(doc);
 }).pre('find',()=>{
     console.log('Retrive likes')
-    // next();
 }).post('find',(docs)=>{
     console.log('find is completed');
     console.log(docs)
